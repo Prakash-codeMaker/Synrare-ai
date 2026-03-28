@@ -1,0 +1,67 @@
+{
+  "hsp": {
+    "name": "Henoch-Schönlein Purpura",
+    "prevalence": "1:5000",
+    "category": "Autoimmune",
+    "icd10": "D69.0",
+    "key_biomarkers": ["IgA levels", "platelet count", "complement C3/C4", "urinalysis"],
+    "typical_age_range": [5, 15],
+    "morphology_priors": {
+      "skin_lesion_density": 0.85,
+      "joint_involvement": 0.75,
+      "renal_involvement": 0.40
+    }
+  },
+  "wilson": {
+    "name": "Wilson's Disease",
+    "prevalence": "1:30000",
+    "category": "Metabolic",
+    "icd10": "E83.01",
+    "key_biomarkers": ["serum ceruloplasmin", "24h urinary copper", "liver biopsy copper"],
+    "typical_age_range": [5, 35],
+    "morphology_priors": {
+      "kayser_fleischer_rings": 0.95,
+      "liver_cirrhosis_signal": 0.65,
+      "neurological_signs": 0.55
+    }
+  },
+  "gaucher": {
+    "name": "Gaucher's Disease",
+    "prevalence": "1:40000",
+    "category": "Lysosomal",
+    "icd10": "E75.22",
+    "key_biomarkers": ["glucocerebrosidase activity", "chitotriosidase", "CCL18"],
+    "typical_age_range": [0, 70],
+    "morphology_priors": {
+      "splenomegaly_signal": 0.90,
+      "hepatomegaly_signal": 0.80,
+      "bone_marrow_infiltration": 0.70
+    }
+  },
+  "pompe": {
+    "name": "Pompe Disease",
+    "prevalence": "1:40000",
+    "category": "Glycogen",
+    "icd10": "E74.02",
+    "key_biomarkers": ["GAA enzyme activity", "CK levels", "acylcarnitine"],
+    "typical_age_range": [0, 60],
+    "morphology_priors": {
+      "muscle_weakness_signal": 0.92,
+      "cardiomegaly_signal": 0.75,
+      "respiratory_involvement": 0.68
+    }
+  },
+  "fabry": {
+    "name": "Fabry Disease",
+    "prevalence": "1:50000",
+    "category": "Lysosomal",
+    "icd10": "E75.21",
+    "key_biomarkers": ["alpha-galactosidase A", "lyso-Gb3", "GLA gene mutation"],
+    "typical_age_range": [0, 65],
+    "morphology_priors": {
+      "angiokeratoma_signal": 0.88,
+      "renal_involvement": 0.72,
+      "cardiac_involvement": 0.60
+    }
+  }
+}
